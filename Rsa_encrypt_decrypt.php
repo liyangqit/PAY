@@ -16,7 +16,7 @@ class RSA{
     }
 
     /**
-    获取私有key字符串 重新格式化  为保证任何key都可以识别
+    *获取私有key字符串 重新格式化  为保证任何key都可以识别
      */
     public function get_private_key($private_key){
         $search = [
@@ -33,8 +33,7 @@ class RSA{
 
 
     /**
-
-    获取公共key字符串  重新格式化 为保证任何key都可以识别
+    *获取公共key字符串  重新格式化 为保证任何key都可以识别
      */
 
     public function get_public_key($public_key){
